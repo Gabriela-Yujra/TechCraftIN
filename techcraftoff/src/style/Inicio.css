@@ -1,0 +1,239 @@
+.page-content .carousel .slide {
+  display: flex;
+  justify-content: center;
+}
+
+.page-content .carousel .slide img {
+  max-width: 100%;
+  max-height: 560px;
+  animation: changeBackground 12s infinite;
+  position: relative;
+}
+
+/* Estilos para la leyenda dentro de las diapositivas del carrusel */
+.page-content .carousel .slide div p.legend {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+
+/* Estilos para el título (h1) dentro de la leyenda */
+.page-content .carousel .slide div p.legend h1 {
+  margin: 0; 
+  color: #14B5D9; 
+}
+
+/* Estilos para el subtítulo (h3) dentro de la leyenda */
+.page-content .carousel .slide div p.legend h3 {
+  margin: 0; /* Elimina todo el margen alrededor del subtítulo */
+  color: #ffffff; /* Cambia el color del texto del subtítulo a blanco */
+}
+
+.page-content .carousel .slide div p.legend2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff; /* Color del texto */
+  font-size: 30px; /* Tamaño de fuente */
+  text-align: center; /* Alineación del texto */
+  background-color: rgba(0, 0, 0, 0.5); /* Color de fondo con mayor opacidad */
+  padding: 10px; /* Espaciado interno */
+}
+.button {
+  background-color:#0ba9cc;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #1B0273;
+}
+/*contenedor2*/
+.content-container {
+  float: left; /* Hace que el contenedor de contenido se posicione a la izquierda */
+  width: 50%; 
+  padding: 20px 80px; 
+  box-sizing: border-box; /* Incluye el padding en el ancho total del contenedor */
+  text-align:left; /* Centra el contenido dentro del contenedor */
+}
+
+.image-container {
+  float: right; /* Hace que el contenedor de la imagen se posicione a la derecha */
+  width: 50%; 
+  text-align: center;
+}
+
+.image-container img {
+  padding-top: 50px;
+  max-width: 100%; 
+  height: 400px; 
+}
+.content-title {
+  color: #0ba9cc;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.element1-title {
+  margin-top: 5px;
+  font-size: 22px;
+  color: #000000;
+}
+
+.elementos-list {
+  margin-bottom: 10px; /* Agrega un margen inferior a cada elemento de la lista */
+  list-style-type: none; /* Elimina los marcadores de lista predeterminados */
+}
+
+.elementos-list span {
+  font-size: 18px; /* Cambia el tamaño de la fuente del texto dentro de los elementos de la lista */
+  color: #535353;
+  font-weight: bold;
+}
+
+.elementos-list::before {
+  content: ""; /* Define el contenido que se utilizará como marcador */
+  display: inline-block;
+  width: 8px; /* Ajusta el ancho del marcador */
+  height: 8px; /* Ajusta la altura del marcador */
+  background-color: #0ba9cc; /* Cambia el color de fondo del marcador */
+  border-radius: 50%; /* Hace que el marcador tenga forma circular */
+  margin-right: 10px; /* Añade un margen derecho para separar el marcador del texto */
+}
+
+.container2 {
+  float: right;
+  width: 50%; 
+  padding: 80px 80px 40px 80px; 
+  box-sizing: border-box; /* Incluye el padding en el ancho total del contenedor */
+  text-align:left;
+}
+
+.content-title2 {
+  color: #0ba9cc;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.element2-title {
+  margin-top: 5px;
+  font-size: 22px;
+  color: #000000;
+}
+
+.element-p {
+  font-size: 18px; /* Cambia el tamaño de la fuente del texto dentro de los elementos de la lista */
+  color: #535353;
+  font-weight: bold;
+}
+
+.image2-container {
+  float: left;
+  width: 50%; 
+  text-align: center;
+}
+
+.image2-container img {
+  padding-top: 50px;
+  max-width: 100%; 
+  height: 400px; 
+}
+
+/*Stylos imagenes animados*/
+.imagen3-container {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+}
+.imagen3-container img{
+  width: 100%;
+  height: 100%;
+  z-index: 0; 
+}
+
+.img-animacion {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+}
+
+.contador-animacion {
+  position: absolute; /* Establece la posición absoluta */
+  top: 50%; /* Coloca el elemento en la mitad superior del contenedor principal */
+  left: 50%; /* Coloca el elemento en la mitad izquierda del contenedor principal */
+  transform: translate(-50%, -120%); 
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.texto-superpuesto {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -290%);
+  text-align: center;
+  color: white;
+}
+.texto-superpuesto h2 {
+  font-size: 40px; /* Tamaño de fuente más grande para h2 */
+  margin-bottom: 0;
+}
+
+.texto-superpuesto h3 {
+  font-size: 22px; /* Tamaño de fuente para h3 */
+  margin-top: 10px;
+}
+
+.Animated1,
+.Animated2,
+.Animated3 {
+  text-align: center;
+}
+
+.Animated1 img,
+.Animated2 img,
+.Animated3 img {
+  width: 90px; /* Ajusta el tamaño según tus necesidades */
+  height: auto;
+}
+.Animated1 h4,
+.Animated2 h4,
+.Animated3 h4 {
+  color: #ffffff;
+  font-size: 25px; /* Tamaño de fuente para los párrafos */
+  margin-top: 5px; /* Espacio superior */
+  margin-bottom: 5px; /* Espacio inferior */
+}
+
+
+.Animated1 span,
+.Animated2 span,
+.Animated3 span {
+  color: #14B5D9;
+  font-size: 40px;
+  font-weight: bold;
+  display: block; /* Convertir el span en un bloque para que ocupe todo el ancho disponible */
+  text-align: center; /* Centrar el texto horizontalmente */
+  margin-top: 5px;
+  
+}
+
+
+
+
+
+

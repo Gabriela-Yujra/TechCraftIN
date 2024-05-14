@@ -1,0 +1,66 @@
+.footer-bottom {
+    background-color: #333; /* Color de fondo */
+    color: #fff; /* Color de texto */
+    padding: 8px; 
+    text-align: center; /* Alineación del texto */
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos equitativamente a lo largo del contenedor */
+    background-color: #e0e0e0;
+  }
+  
+  .footer-section1,
+  .footer-section2,
+  .footer-section3 {
+    flex: 1; /* Distribuye el espacio disponible de manera equitativa entre los elementos */
+    padding: 10px; /* Añade un relleno alrededor de cada sección */
+    font-size: 16px; /* Tamaño de la fuente */
+    margin-right: 20px;
+    color: #535353;
+    font-weight: bold;
+  }
+  .footer-section2 dd li {
+    list-style-type: none; /* Quita el marcador de lista */
+    padding: 0; 
+    margin: 0;
+  }
+  .footer-section2 dd a {
+    color: #535353; /* Cambia el color del texto a rojo (#ff0000) u otro color de tu elección */
+    text-decoration: none; /* Opcional: Quita el subrayado del enlace */
+  }
+  .footer-section3 {
+    text-align: center; /* Centra el contenido horizontalmente */
+  }
+  
+  .footer-section3 h3,
+  .footer-section3 dd {
+    text-align: left; /* Vuelve a alinear el texto a la izquierda si es necesario */
+  }
+  .footer-section1 p {
+    font-size: 16px; /* Tamaño del texto */
+    color: #535353; /* Color del texto */
+    text-align: center;
+  }
+  .footer-section1 img{
+    display: block; 
+    margin: 0 auto;
+  }
+  .footer-content h3{
+    color: #0ba9cc;
+  }
+  .redes-sociales {
+    display: flex; /* Utilizamos flexbox para alinear los íconos */
+    justify-content: flex-start; /* Alinea los íconos al lado izquierdo */
+  }
+  .redes-sociales a {
+    margin-right: 50px; /* Espacio entre los iconos */
+  }
+  
+  .redes-sociales a svg {
+    width: 30px; /* Tamaño de los iconos */
+    height: 30px;
+    color: #333; /* Color de los iconos */
+  }
+  
