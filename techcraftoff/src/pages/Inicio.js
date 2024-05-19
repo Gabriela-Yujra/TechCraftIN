@@ -33,8 +33,8 @@ const Inicio = () => {
         </div>
       </Carousel>
       <div className="content-container">
-        <h2 class="content-title ">Desarrollo de Software</h2>
-        <h3 class="element1-title">Profesionales en desarrollo y programación de tecnología</h3>
+        <h2 className="content-title ">Desarrollo de Software</h2>
+        <h3 className="element1-title">Profesionales en desarrollo y programación de tecnología</h3>
         <ul>
           <li className="elementos-list">
             <span>Desarrollamos páginas web personalizadas</span>
@@ -99,6 +99,22 @@ const Inicio = () => {
          </div>
          </div>
       </div>
+      <div className='contenedor3'>
+        <span><i>Tecnologías </i> con las que trabajamos</span>
+        <p>Tecnologías de programación para aplicaciones móviles</p>
+        <Carousel showArrows={true} showThumbs={false} showStatus={false} infiniteLoop={true} autoPlay={true} interval={2000} transitionTime={500}>
+          <div>
+            <img src="ruta_de_imagen1.jpg" alt="Descripción de la imagen 1" />
+          </div>
+          <div>
+            <img src="ruta_de_imagen2.jpg" alt="Descripción de la imagen 2" />
+          </div>
+          <div>
+            <img src="ruta_de_imagen19.jpg" alt="Descripción de la imagen 19" />
+          </div>
+        </Carousel>
+      </div>
+
 
 
     </div>

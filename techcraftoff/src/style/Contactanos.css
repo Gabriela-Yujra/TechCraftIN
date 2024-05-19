@@ -1,14 +1,62 @@
 /* Contactanos.css */
 
-.img-construccion {
-    display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
-    height: 100vh; /* Ajusta la altura según sea necesario */
-  }
-  
-  .img-construccion img {
-    max-width: 100%; /* Asegura que la imagen no se desborde */
-    height: 90%; /* Mantiene la proporción de la imagen */
-  }
-  
+.contactanos {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.titulo h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #1B0273;
+}
+
+.inputs {
+  margin-bottom: 20px;
+}
+
+.inputs input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.boton {
+  text-align: center;
+}
+
+.submit {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0ba9cc;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+
+}
+
+.submit:hover {
+  background-color: #1B0273;
+}
+
+.cabeceraContac img{
+  width: 1600px;
+  height: 200px;
+  margin: 0%;
+}
+
+.textoContac{
+  position: absolute;
+  top: 32%; /* Coloca el texto en el centro vertical */
+  left: 50%; /* Coloca el texto en el centro horizontal */
+  transform: translate(-50%, -50%); /* Centra el texto */
+  text-align: center; /* Alinea el texto al centro */
+  color: white; /* Color del texto */
+  z-index: 2; /* Asegura que el texto esté delante de la imagen */
+}

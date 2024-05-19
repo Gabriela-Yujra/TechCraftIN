@@ -15,26 +15,26 @@ const Layout = () =>{
     </div>
     <div className = "footer">
     <nav>
-        <div class="footer-content">
-          <div class="footer-section1">
+        <div className="footer-content">
+          <div className="footer-section1">
             <img src={logo} alt="Logo" className="logo-img" />
             <p>Somos TechCraft, especialistas en desarrollo de software, aplicaciones móviles.</p>
           </div>
-          <div class="footer-section2">
+          <div className="footer-section2">
             <h3>Contactos</h3>
             <dl>
               <dt>Direccion: </dt>
               <dd>Av. 6 de Agosto No. 2649 (Sopocachi), La Paz - Bolivia</dd>
               <dt>Teléfonos: </dt>
               <dd>
-              <li><a href="tel:#" class="text-white">(+591) 71268143</a></li>
-              <li><a href="tel:#" class="text-white">(+2) 2433811</a></li>
+              <li><a href="tel:#" className="text-white">(+591) 71268143</a></li>
+              <li><a href="tel:#" className="text-white">(+2) 2433811</a></li>
               </dd>
               <dt>E-mail: </dt>
               <dd>TechCraft@org.bo</dd>
             </dl>
           </div>
-          <div class="footer-section3">
+          <div className="footer-section3">
             <h3>Horario de atencion</h3>
             <dd>Lun-Vie: 08:00 am - 12:00 pm</dd>
             <dd>Lun-Vie: 14:00 pm - 19:00 pm</dd>
@@ -50,7 +50,7 @@ const Layout = () =>{
             </div>
           </div>
         </div>
-       <div class="footer-bottom">
+       <div className="footer-bottom">
           &copy; 2024 TechCraft Innovation S.R.L
        </div>
      </nav>
