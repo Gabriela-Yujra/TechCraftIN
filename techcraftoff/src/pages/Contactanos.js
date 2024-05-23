@@ -13,7 +13,7 @@ const Contactanos = () => {
 
   const guardar = async () => {
     try {
-      const docRef = await addDoc(collection(db, "users"), {
+      const docRef = await addDoc(collection(db, "mensajes"), {
         nombre: nombre,
         apellido: apellido,
         email: email,

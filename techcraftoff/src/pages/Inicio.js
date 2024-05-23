@@ -5,6 +5,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import AnimatedCounter from '../components/AnimatedCounter';
 import RelojIcono from '../components/RelojIcono';
 import '../style/Inicio.css';
+import LogoCarousel from '../components/logotipos';
 
 const Inicio = () => {
   return (
@@ -99,24 +100,99 @@ const Inicio = () => {
          </div>
          </div>
       </div>
+      
       <div className='contenedor3'>
-        <span><i>Tecnologías </i> con las que trabajamos</span>
-        <p>Tecnologías de programación para aplicaciones móviles</p>
-        <Carousel showArrows={true} showThumbs={false} showStatus={false} infiniteLoop={true} autoPlay={true} interval={2000} transitionTime={500}>
-          <div>
-            <img src="ruta_de_imagen1.jpg" alt="Descripción de la imagen 1" />
-          </div>
-          <div>
-            <img src="ruta_de_imagen2.jpg" alt="Descripción de la imagen 2" />
-          </div>
-          <div>
-            <img src="ruta_de_imagen19.jpg" alt="Descripción de la imagen 19" />
-          </div>
-        </Carousel>
+        <h2>
+        <span><i>Nuestras </i> líneas de negocio</span>
+        </h2>
+        <div className='parafo'>
+        <p>En TECHCRAFT desarrollamos software y esto nos apasiona. Convertimos tu idea en una app móvil, un website, un software de computador, etc.</p>
+        </div>
       </div>
-
-
-
+      <div className="row">
+      <div className="tarjeta" data-wow-duration="1s" data-wow-delay=".2s">
+        <div className="features-box">
+          <div className="features-icon d-table">
+            <div className="features-icon-inner d-table-cell">
+              <img src="http://jbdevelopmentsv.com/file/img/servicios/software.png" alt="SOFTWARE" />
+            </div>
+          </div>
+          <h3>SOFTWARE</h3>
+          <p>Software para empresas o negocios personales. Usamos las mejores tecnologías de desarrollo para realizar un excelente producto.</p>
+          <div className='link'>
+          <Link to="/Servicios" className="button">CONOCER MAS</Link>
+          </div>
+        </div>
+      </div>
+      <div className="tarjeta" data-wow-duration="1.6s" data-wow-delay=".4s">
+        <div className="features-box">
+          <div className="features-icon d-table">
+            <div className="features-icon-inner d-table-cell">
+              <img src="http://jbdevelopmentsv.com/file/img/servicios/sitioweb.png" alt="PÁGINAS WEB" />
+            </div>
+          </div>
+          <h3>PÁGINAS WEB</h3>
+          <p>Sitios web interactivos, seguros y adaptables para que se puedan visualizar correctamente en smartphones, tablets o computadoras.</p>
+          <div className='link'>
+          <Link to="/Servicios" className="button">CONOCER MAS</Link>
+          </div>
+        </div>
+      </div>
+      <div className="tarjeta" data-wow-duration="1.9s" data-wow-delay=".6s">
+        <div className="features-box">
+          <div className="features-icon d-table">
+            <div className="features-icon-inner d-table-cell">
+              <img src="http://jbdevelopmentsv.com/file/img/servicios/app.png" alt="APP MÓVILES" />
+            </div>
+          </div>
+          <h3>APP MÓVILES</h3>
+          <p>Diseñamos y desarrollamos aplicaciones móviles nativas o híbridas compatibles en todos los dispositivos: iPhone, iPad y Smartphones.</p>
+          <div className='link'>
+          <Link to="/Servicios" className="button">CONOCER MAS</Link>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div className="componente4">
+      <div className='titulologo'>
+      <h1>Conoce <i>nuestras</i> herramientas de software</h1>
+      </div>
+      <LogoCarousel />
+    </div>
+    
+    <div className="componente5">
+      <div className="background-image"></div>
+      <div className="custom-row">
+        <div className="custom-column custom-column-1">
+          <div className="custom-image">
+            <img
+              src="https://desarrollowebtotal.com/wp-content/uploads/2019/08/Serve-Scaled-launch-rocket-image_2.png"
+              alt="Rocket"
+              width="170"
+              height="358"
+            />
+          </div>
+        </div>
+        <div className="custom-column custom-column-2">
+          <div className="custom-text">
+            <h1>¡Desarrollo Web a Medida!</h1>
+          </div>
+          <div className="custom-button-wrapper">
+            <Link to="/Contactanos" className="custom-button">CONTÁCTANOS</Link>
+          </div>
+        </div>
+        <div className="custom-column custom-column-3">
+          <div className="custom-image">
+            <img
+              src="https://desarrollowebtotal.com/wp-content/uploads/2019/08/Serve-Scaled-launch-website-man-image-right_2.png"
+              alt="Man with Website"
+              width="148"
+              height="299"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
     </div>
   );
 }

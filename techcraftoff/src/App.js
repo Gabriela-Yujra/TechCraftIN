@@ -9,6 +9,14 @@ import Default from "./pages/Default";
 import Servicios from "./pages/Servicios";
 import Portafolio from "./pages/Portafolio";
 import Contactanos from "./pages/Contactanos";
+import Pharma from "./pages/Pharma";
+import Login from "./pages/Login";
+import Signup from "./pages/Signup";
+import Admin from './pages/Admin';
+import Dashboard from'./componets-login/Dashboard';
+import Header from './componets-login/Header';
+/*import Regimedi from './componets-login/Regimedi';*/
+import Sidebar from './componets-login/Sidebar';
 
 function App() {
   return (
@@ -49,9 +57,20 @@ function App() {
           <Route path="Servicios" element={<Servicios />} />
           <Route path="Portafolio" element={<Portafolio />} />
           <Route path="Contactanos" element={<Contactanos />} />
-          <Route path="*" element={<Default />} />
+          <Route path="Default" element={<Default />} />
+          <Route path="Pharma" element={<Pharma />} />
         </Route>
+        <Route path="Login" element={<Login/>} />
+        <Route path="Signup" element={<Signup/>} />
+        <Route path="Admin" element={<Admin/>} />
+
+        <Route path="Dashboard" element={<Dashboard/>} />
+        <Route path="Header" element={<Header/>} />
+        <Route path="Sidebar" element={<Sidebar/>} />
       </Routes>
+
+
+
     </div>
   );
 }

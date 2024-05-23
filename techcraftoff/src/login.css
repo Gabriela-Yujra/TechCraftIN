@@ -1,0 +1,99 @@
+/* Estilos del header */
+.header {
+    background-color: hsl(163, 48%, 36%); /* Color de fondo del header */
+    color: #fff; /* Color del texto */
+    padding: 20px; /* Espaciado interno */
+    display: flex; /* Utilizar flexbox para alinear elementos */
+    justify-content: space-between; /* Distribuir los elementos */
+    align-items: center; /* Centrar verticalmente los elementos */
+  }
+  
+  /* Estilos del menú */
+  .menu {
+    background-color: hsl(163, 50%, 50%); /* Color de fondo del menú */
+    color: #fff; /* Color del texto */
+    width: 200px; /* Ancho del menú */
+    float: left; /* Flotar a la izquierda */
+    height: 100vh; /* Altura total de la ventana */
+    padding-top: 20px; /* Espaciado superior */
+  }
+  
+  /* Estilos del nombre de la marca */
+  .brand2 {
+    font-size: 3rem; /* Tamaño de letra más grande */
+    font-weight: bold; /* Texto en negrita */
+  }
+  
+  /* Estilos del mensaje de bienvenida */
+  .welcome {
+    font-size: 1.5rem; /* Tamaño de letra más grande */
+  }
+  
+  /* Estilos de los elementos de la barra lateral */
+  .sidebar ul {
+    list-style-type: none; /* Quitar viñetas */
+    padding: 0;
+  }
+  .sidebar ul li {
+    margin-bottom: 20px; /* Espaciado entre elementos */
+  }
+  .sidebar ul li a {
+    color: #fff; /* Color del enlace */
+    text-decoration: none; /* Quitar subrayado */
+    font-weight: bold; /* Texto en negrita */
+    display: inline-block; /* Convertir el enlace en un bloque */
+    padding: 5px 30px; /* Espaciado interno del botón */
+    transition: background-color 0.3s, color 0.3s; /* Transición suave para el cambio de color de fondo */
+    line-height: 30px; /* Ajustar la altura de línea para centrar verticalmente */
+    text-align: center; /* Centrar horizontalmente el texto */
+    font-size: 1.2rem; /* Tamaño de letra más grande */
+  }
+  .sidebar ul li a:hover {
+    background-color: #7EC8E3; /* Cambiar el color de fondo al pasar el mouse */
+    color: #333; /* Cambiar el color del texto al pasar el mouse */
+  }
+  
+  /* Eliminar subrayado al pasar el ratón sobre los enlaces */
+  .sidebar ul li a:hover {
+    text-decoration: none;
+  }
+  
+  /* Estilos del dashboard */
+  .dashboard {
+    padding: 30px; /* Espaciado interno */
+    background-color: #f4f4f4; /* Color de fondo del dashboard */
+    margin-left: 200px; /* Dejar espacio para el menú */
+    height: 100vh; /* Altura total de la ventana */
+  }
+  
+  /* Estilos del pie de página */
+  .footer {
+    background-color: hsl(163, 50%, 50%); /* Color de fondo del pie de página */
+    color: #fff; /* Color del texto */
+    padding: 20px; /* Espaciado interno */
+    clear: both; /* Limpiar los flotantes */
+  }
+  
+  /* Estilos del nombre de la marca */
+  .brand {
+    font-size: 1.5rem; /* Tamaño del texto ajustado para hacerlo más pequeño */
+    font-weight: bold; /* Texto en negrita */
+    padding-left: 80px; /* Espaciado a la izquierda para separar la imagen del texto */
+    background-image: url('assets/logo-pharma.png'); /* Ruta de la imagen de fondo */
+    background-repeat: no-repeat; /* Evitar la repetición de la imagen */
+    background-position: left center; /* Posicionar la imagen a la izquierda */
+    display: inline-block; /* Permitir que el elemento abarque solo el espacio que necesite */
+    background-size: 50px; /* Ajustar el tamaño de la imagen */
+    width: auto; /* Permitir que el contenedor se ajuste al tamaño de la imagen */
+    height: 50px; /* Altura ajustada para el contenedor */
+    margin-top: -20px; /* Ajustar el margen superior para mover la imagen hacia arriba */
+    padding-top: 10px; /* Ajustar el espaciado superior para mover el texto hacia abajo */
+  }
+  
+  /* Estilos del panel administrativo */
+  .admin-panel {
+    float: right; /* Flotar a la derecha */
+    font-weight: bold; /* Texto en negrita */
+    font-size: 1.5rem;
+  }
+  

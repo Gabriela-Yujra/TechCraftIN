@@ -1,0 +1,164 @@
+.app-pharma {
+    display: flex;
+    padding: 20px;
+  }
+  
+  .img-app-pharma {
+    flex: 1;
+    display: flex;
+    justify-content: center; /* Centra la imagen horizontalmente */
+    align-items: center;
+  }
+  
+  .img-app-pharma img {
+    width: 70%;
+    border-radius: 150px;
+  }
+  
+  .app-promo-content {
+    flex: 2;
+  }
+  
+  .app-promo-content h2 {
+    color: #1bc0b0;
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+  
+  .app-promo-content p {
+    color: #666;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  .app-promo-content a {
+    color: #1bc0b0;
+  }
+  .app-links {
+    margin-top: 20px;
+  }
+  
+  .app-links a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .app-links img {
+    width: 150px; /* Ajusta el tamaño según necesites */
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tecno-pharma {
+    width: 100%;
+    text-align: center;
+    margin-top: -80px;
+    margin-left: -110px;
+    background-color: #fff;
+  }
+  
+  .tecno-pharma h2 {
+    font-size: 24px;
+    margin-bottom: -20px;
+    color: #1bc0b0;
+  }
+  
+  .tecno-pharma p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px; /* Espacio entre las imágenes */
+  }
+  
+  .tech-image {
+    width: 65px; /* Ajusta el tamaño según sea necesario */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin: 10px; /* Espacio alrededor de cada imagen */
+    border-radius: 4px; /* Opcional: bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra alrededor de las imágenes */
+  }
+
+  .pantallas-pharma {
+    width: 100%;
+    margin-top: 30px; /* Ajusta el margen superior según sea necesario */
+
+    background-color: #cafff7;
+    display: flex;
+    justify-content: center; /* Centra las imágenes horizontalmente */
+  }
+  
+  .pantallas-pharma p {
+    display: flex;
+    justify-content: center; /* Centra las imágenes horizontalmente */
+    flex-wrap: wrap;
+  
+  }
+  
+  .pantallas-pharma img {
+    width: 400px; /* Ajusta el tamaño según sea necesario */
+  }
+
+  /* Estilos para el video de fondo */
+  .pharmaVideo {
+    width: 100%;
+    max-width: 200px; /* Ajusta el ancho máximo del contenedor del video */
+    margin: 20px auto; /* Centra el contenedor horizontalmente y ajusta el margen superior e inferior */
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #fondo-video {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px; /* Asegura que el video también tenga bordes redondeados */
+  }
+  
+
+  .contenedor-pharma {
+    display: flex; /* Utiliza flexbox para colocar los elementos en fila */
+    justify-content: space-around; /* Distribuye los elementos con espacio alrededor */
+    align-items: center; /* Centra verticalmente los elementos */
+    width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+    padding: 20px; /* Añade un padding al contenedor */
+    box-sizing: border-box; /* Hace que el padding se incluya en el ancho total */
+    border: 1px solid #ccc; /* Borde para visualización */
+  }
+  
+  .pharmaVideo {
+    flex: 1; /* Hace que esta columna ocupe el espacio disponible */
+    margin-right: 200px; /* Margen derecho para separación */
+    margin-left: 300px;
+  }
+  
+  .caracteristicas-pharma {
+    flex: 2; /* Hace que esta columna ocupe el espacio disponible */
+  }
+  .caracteristicas-pharma h3{
+    color: #1bc0b0;
+    font-size: 25px;
+  }
+   
+  .icons-list li p {
+    color: #666;
+    font-size: 16px;
+  }
+
+  .button-pharma{
+    background-color:#1bc0b0;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-top: 10px; /* Agrega un margen arriba */
+    display: inline-block;
+  }
+  
+  .button-pharma:hover {
+    background-color: #0ba9cc;
+  }
+
+  

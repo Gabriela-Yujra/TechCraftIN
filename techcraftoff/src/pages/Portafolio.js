@@ -1,64 +1,54 @@
-/*import { Carousel } from 'react-responsive-carousel';
-import 'react-responsive-carousel/lib/styles/carousel.min.css'; // Asegúrate de importar los estilos CSS
-import imagen1 from '../assets/vista1.jpg'; 
-import imagen2 from '../assets/vista2.jpg';
-import imagen3 from '../assets/vista3.jpg';
 import '../style/Portafolio.css'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import logoPharma from '../assets/logo-pharma.png';
+import logoHands from '../assets/logo-hands.png';
 
 const Portafolio = () => {
-    return (
-      <>
-      <div className='intro-portafolio'>
-        
-      </div>
-        <Carousel>
-            <div>
-                <img src={imagen1} alt="Descripción de la imagen 1" />
-            </div>
-            <div>
-                <img src={imagen2} alt="Descripción de la imagen 1" />
-            </div>
-            <div>
-                <img src={imagen3} alt="Descripción de la imagen 1" />
-            </div>
-        </Carousel>
-      </>
-    );
-}
-
-export default Portafolio;*/
-import imagen1 from '../assets/vista1.jpg'; 
-import imagen2 from '../assets/vista2.jpg';
-import imagen3 from '../assets/vista3.jpg';
-import '../style/Portafolio.css'
-
-const Portafolio = () => {
-  const handleAccordionClick = (index) => {
-    const accordionItem = document.querySelector(`#accordion-item-${index}`);
-    accordionItem.classList.toggle('active');
-  };
-
   return (
     <>
-    <div className='portafolio'>
-      <h1>PharmaTech Guia</h1>
-      <div className='accordion'>
-        <div className='accordion-item' id='accordion-item-1' onClick={() => handleAccordionClick(1)}>
-          <img src={imagen1} alt="Descripción de la imagen 1" />
-          <div className='accordion-content'>
-            <p></p>
+      <div className="video-container">
+        <video autoPlay muted loop id="background-video">
+          <source src='https://www.occamagenciadigital.com/hubfs/disenopagweb_v1.mp4' type="video/mp4" />
+        </video>
+        <div className="content">
+          <h1>
+          <span>NUESTROS <i>PROYECTOS !</i></span>
+          </h1>
+        </div>
+      </div>
+      <div className='proyectos'>
+        <h1>Proyectos <i>Destacados</i></h1>
+      </div>
+      <div className="row">
+      <div className="tarjeta" data-wow-duration="1s" data-wow-delay=".2s">
+        <div className="features-box">
+        <div className="features-icon d-table">
+          <div className="features-icon-inner d-table-cell">
+            <img src={logoPharma} alt="pharma" />
           </div>
         </div>
-        <div className='accordion-item' id='accordion-item-2' onClick={() => handleAccordionClick(2)}>
-          <img src={imagen2} alt="Descripción de la imagen 2" />
-          <div className='accordion-content'>
-            <p>Diseño de páginas web empresa web en colombia</p>
+          <h3>PharmaTech Guia</h3>
+          <p>Aplicación móvil que sincroniza la 
+            información del Vademécum, ofreciendo acceso rápido y actualizado 
+            a datos sobre medicamentos. </p>
+          <div></div>
+          <div className='link'>
+          <Link to="/Pharma" className="button">VER PROYECTO</Link>
           </div>
         </div>
-        <div className='accordion-item' id='accordion-item-3' onClick={() => handleAccordionClick(3)}>
-          <img src={imagen3} alt="Descripción de la imagen 3" />
-          <div className='accordion-content'>
-            <p>Diseño de páginas web diseno responsive web</p>
+      </div>
+      <div className="tarjeta" data-wow-duration="1.6s" data-wow-delay=".4s">
+        <div className="features-box">
+        <div className="features-icon d-table">
+          <div className="features-icon-inner d-table-cell">
+            <img src={logoHands} alt="hands" />
+          </div>
+        </div>
+          <h3>Hands On</h3>
+          <p>Hands On es una innovadora aplicación móvil que actúa como traductor bidireccional de lenguaje de señas.</p>
+          <div className='link'>
+          <Link to="/Servicios" className="button">VER PROYECTO</Link>
           </div>
         </div>
       </div>

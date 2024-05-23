@@ -1,0 +1,16 @@
+.logo-carousel-container {
+    margin: 0 auto; /* Centra el carrusel */
+    max-width: 1200px; /* Establece un ancho máximo para el carrusel */
+  }
+  
+  .logo-item {
+    padding: 10px 20px; /* Ajusta el espaciado entre las imágenes */
+  }
+  
+  .logo-image {
+    max-width: 40%; /* Hace que las imágenes se ajusten al contenedor */
+    max-height: 100px; /* Establece una altura máxima para las imágenes */
+    width: auto; /* Mantiene la proporción de las imágenes */
+    height: auto; /* Mantiene la proporción de las imágenes */
+  }
+  

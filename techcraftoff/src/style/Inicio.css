@@ -232,8 +232,154 @@
   
 }
 
+/*CONTENEDOR 3*/
+
+.tarjeta{
+  background-color: #fff;
+  border: 1px solid #dddddd;
+  padding: 60px;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(67, 74, 78, 0.953);
+  margin-top:20px ;
+}
+.row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Ajusta el ancho mínimo y máximo */
+  grid-gap: 50px;
+  justify-items: center; /* Centra horizontalmente los elementos */
+  margin-right: 150px;
+  margin-left: 150px;
+}
+.features-icon img {
+  max-width: 80px;
+}
+
+.features-box h3 {
+  font-size: 20px;
+  color: #0ba9cc;
+}
+
+.features-box p {
+  font-size: 16px;
+  color: #535353;
+  text-align: center;
+}
+
+.tw-readmore {
+  font-size: 12px; /* Reduce el tamaño del enlace */
+}
+
+.contenedor3 {
+  top: 50%;
+  left: 50%;
+  color: #535353;
+  text-align: center;
+  font-size: 25px;
+}  
+h2 i {
+  color: #0ba9cc; /* Cambia esto al color que desees */
+  font-style: normal
+}
+.parafo{
+  color:#535353;
+  font-size: 20px;
+  text-align: center;
+  margin-right: 300px;
+  margin-left: 300px;
+  margin-top: -15px;
+}
+
+.componente4{
+  margin-top: 50px;
+  color:#535353;
+  font-size: 20px;
+  text-align: center;
+  background-color: #ffffff;
+}
 
 
+.componente5 {
+  margin-top: 50px;
+  position: relative;
+  padding: 20px;
+  overflow: hidden; /* Asegura que el contenido no se desborde */
+}
+.componente5::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #3604c0; /* Color de fondo debajo de la imagen */
+  z-index: -2; /* Coloca el color detrás de la imagen */
+}
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://desarrollowebtotal.com/wp-content/uploads/2019/06/shapes-texture-bg-less-height.jpg');
+  background-size: cover;
+  background-position: center;
+  z-index: -1; /* Coloca la imagen detrás del contenido */
+  opacity: 0.4; /* Ajusta la opacidad si deseas un efecto más tenue */
+}
 
+.custom-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1; /* Asegura que el contenido esté por encima del fondo */
+}
 
+.custom-column {
+  flex: 1;
+  padding: 10px;
+}
 
+.custom-column-1, .custom-column-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-column-2 {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.custom-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.custom-text h1 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 45px;
+}
+
+.custom-button-wrapper {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.custom-button {
+  background-color:#0ba9cc;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: #1B0273;
+}
