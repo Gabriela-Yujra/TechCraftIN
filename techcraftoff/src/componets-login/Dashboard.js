@@ -1,9 +1,6 @@
-// components/Dashboard.js
-
 import React from 'react';
 
 const Dashboard = () => {
-  // Simulación de datos de estadísticas
   const stats = {
     users: 128,
     orders: 56,
@@ -19,7 +16,7 @@ const Dashboard = () => {
         <ul>
           <li>Médicos registrados: {stats.users}</li>
           <li>Reservas procesadas: {stats.orders}</li>
-          <li>Cantida de medicamentos: {stats.products}</li>
+          <li>Cantidad de medicamentos: {stats.products}</li>
         </ul>
       </div>
       <div className="actions">
@@ -34,4 +31,4 @@ const Dashboard = () => {
   );
 }
 
-export default Dashboard;
+export default Dashboard;

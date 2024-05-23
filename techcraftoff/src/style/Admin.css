@@ -79,7 +79,7 @@
     font-size: 1.5rem; /* Tamaño del texto ajustado para hacerlo más pequeño */
     font-weight: bold; /* Texto en negrita */
     padding-left: 80px; /* Espaciado a la izquierda para separar la imagen del texto */
-    background-image: url('assets/logo-pharma.png'); /* Ruta de la imagen de fondo */
+    background-image: url('../assets/logo-pharma.png'); /* Ruta de la imagen de fondo */
     background-repeat: no-repeat; /* Evitar la repetición de la imagen */
     background-position: left center; /* Posicionar la imagen a la izquierda */
     display: inline-block; /* Permitir que el elemento abarque solo el espacio que necesite */
